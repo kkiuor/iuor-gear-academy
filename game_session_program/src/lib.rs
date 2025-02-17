@@ -1,4 +1,5 @@
 #![no_std]
+#![allow(static_mut_refs)]
 use game_session_io::*;
 use gstd::{exec, msg, prelude::*, ActorId, MessageId};
 use wordle_io::Action as WordleAction;
